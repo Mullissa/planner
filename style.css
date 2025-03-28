@@ -41,3 +41,16 @@ h1 {
     background-color: magenta;
 } 
 
+.edit-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f1c40f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #f39c12;
+}
