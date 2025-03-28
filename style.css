@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: pink;
+}
+
+#planner {
+    margin-top: 20px;
+}
+
+.planner.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time-slot, .task-input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.save-btn {
+    padding: 10px 15px;
+    background-color: mediumpurple;
+    color: lightpink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-btn:hover {
+    background-color: magenta;
+} 
+
